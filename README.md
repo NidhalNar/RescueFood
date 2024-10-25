@@ -40,36 +40,18 @@ Before you start, ensure you have the following installed:
    ```bash
    git clone https://github.com/NidhalNar/RescueFood.git
 
-Navigate to the Project Directory:
-cd RescueFood
+## Installation Steps
 
-Install Dependencies:
-Use Composer to install the PHP dependencies:
-composer install
+1. **Navigate to the Project Directory** and install dependencies:
+   
+   ```bash
+   cd RescueFood
+   composer install
+   npm install
 
-Use npm to install JavaScript dependencies:
-npm install
-Setup Environment Variables:
+### 3. Setup Environment Variables
 
 Create a .env file by copying the example provided:
+
+```bash
 cp .env.example .env
-
-Update the .env file with your database credentials and other configuration options:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
-
-Generate Application Key:
-Laravel requires an application key to be set. Generate this key with:
-php artisan key:generate
-
-Run Migrations:
-Set up the database structure by running the migrations:
-php artisan migrate
-
-Start the Development Server:
-To start the Laravel development server, run:
-php artisan serve
