@@ -21,7 +21,7 @@ RescueFood is a web application designed to facilitate the recovery and redistri
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/mohamedwassimennar/Food-Rescue-Project.git
+    git clone https://github.com/NidhalNar/RescueFood
     ```
 
 2. **Navigate to the Project Directory and Install Dependencies:**
